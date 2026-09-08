@@ -23,7 +23,7 @@ Build and ship a full machine-learning solution for predicting customer churn in
 - Security: Security groups scoped to allow ALB inbound 80 from the internet, and task inbound 8000 from the ALB SG.
 - Observability: CloudWatch Logs for container stdout/stderr and ECS service events.
 
-### Deployment flow (high-level)
+### Deployment flow 
 
 - Push to main → GitHub Actions builds the Docker image and pushes it to Docker Hub.
 - ECS service is updated (manually or via the workflow) to force a new deployment.
