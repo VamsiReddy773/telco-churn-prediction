@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vamsiyarava/Churn Model/telco-churn-prediction/mlruns/100298683888560511/b48517e3e56b4dbd8952b4bf9ef1ca84/artifacts
+end_time: 1788933708074
+entry_point_name: ''
+experiment_id: '100298683888560511'
+lifecycle_stage: active
+run_id: b48517e3e56b4dbd8952b4bf9ef1ca84
+run_name: shivering-dove-700
+run_uuid: b48517e3e56b4dbd8952b4bf9ef1ca84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1788933705669
+status: 3
+tags: []
+user_id: vamsiyarava
