@@ -20,9 +20,9 @@ COPY . .
 COPY src/serving/model /app/src/serving/model
 
 # Copy MLflow run (artifacts + metadata) to the flat /app/model convenience path
-COPY src/serving/model/96786dd36e6a4af18d3c9c7540b34db7/artifacts/model /app/model
-COPY src/serving/model/96786dd36e6a4af18d3c9c7540b34db7/artifacts/feature_columns.txt /app/model/feature_columns.txt
-COPY src/serving/model/96786dd36e6a4af18d3c9c7540b34db7/artifacts/preprocessing.pkl /app/model/preprocessing.pkl
+COPY src/serving/model/b48517e3e56b4dbd8952b4bf9ef1ca84/artifacts/model /app/model
+COPY src/serving/model/b48517e3e56b4dbd8952b4bf9ef1ca84/artifacts/feature_columns.txt /app/model/feature_columns.txt
+COPY src/serving/model/b48517e3e56b4dbd8952b4bf9ef1ca84/artifacts/preprocessing.pkl /app/model/preprocessing.pkl
 
 # make "serving" and "app" importable without the "src." prefix
 # ensures logs are shown in real-time (no buffering).
